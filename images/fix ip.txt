@@ -1,0 +1,24 @@
+ IPv4 Address. . . . . . . . . . . : 192.168.1.57
+ Subnet Mask . . . . . . . . . . . : 255.255.255.0
+
+ Default Gateway . . . . . . . . . : fe80::1%6
+ 192.168.1.1
+
+
+
+ IP Address: Chọn một địa chỉ IP trong cùng subnet với router. 
+ Cho ví dụ, nếu Router của bạn là 192.168.1.1 (subnet 255.255.255.0), 
+ bạn sẽ phải chọn một địa chỉ IP nằm trong khoảng 192.168.1.2 và 192.168.1.255, 
+ còn nếu Router của bạn là 192.168.0.1 (subnet 255.255.255.0), 
+ 192.168.0.2–192.168.0.255 sẽ là phạm vi của địa chỉ IP mà bạn cần chọn.
+
+ Subnet Mask: Địa chỉ này sẽ giống với Router của bạn, ví dụ như 255.255.255.0.
+ Default Gateway: Đây là địa chỉ IP của Router  
+ Preferred DNS: Bạn có thể nhập vào địa chỉ IP của máy chủ DNS, nếu biết nó, hay chỉ cần nhập vào địa chỉ IP của Router.
+
+
+
+
+ netsh wlan set hostednetwork mode=allow ssid=wifihwin10 key=12345678
+ netsh wlan start hostednetwork
+

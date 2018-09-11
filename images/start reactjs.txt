@@ -1,0 +1,11 @@
+npm init //start a node project
+npm install express ejs // install express và ejs d? create server
+npm install --save react react-dom // install react và react dom
+
+create ./index.js file
+
+sudo npm install -g webpack //install webpack on machine
+
+npm install --save webpack webpack-dev-server // install webpack d? dóng gói code vào 1 file js
+npm install --save-dev babel-cli babel-core babel-loader babel-plugin-transform-object-rest-spread babel-preset-es2015 babel-preset-react babel-preset-stage-0 babel-register  //install babel d? convert code t? es6->es5 mà trình duy?t có th? hi?u
+
